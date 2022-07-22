@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="viewStart"
+    tools:context=".landing.activities.Activities">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:background="#B7EEFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="51dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="4dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/deepBreathing"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="DEEP BREATHING"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <Button
+            android:id="@+id/thoughtDefusion"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="THOUGHT DEFUSION"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mindfulWalking" />
+
+        <Button
+            android:id="@+id/mindfulWalking"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="MINDFUL WALKING"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pmr" />
+
+        <Button
+            android:id="@+id/pmr"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="PROGRESSIVE MUSCLE RELAXATION"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guidedImagery" />
+
+        <Button
+            android:id="@+id/guidedImagery"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="GUIDED IMAGERY"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/deepBreathing" />
+
+        <Button
+            android:id="@+id/selfComparison"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="SELF COMPASSION"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/thoughtDefusion" />
+
+        <Button
+            android:id="@+id/beachVisualisation"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/buttonbg"
+            android:backgroundTint="#7C08C5"
+            android:backgroundTintMode="screen"
+            android:text="BEACH VISUALISATION"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selfComparison" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="304dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:text="Recommended Activities"
+            android:textColor="#535252"
+            android:textSize="22sp"
+            app:layout_constraintStart_toEndOf="@+id/back1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="350dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Build emotional strength by practising relaxation activities."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

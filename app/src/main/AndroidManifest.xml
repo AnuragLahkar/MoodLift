@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.AnuragKonark.MoodLift">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".nav.Chats"
+            android:exported="false" />
+        <activity
+            android:name=".nav.Psychiatrist"
+            android:exported="false" />
+        <activity
+            android:name=".nav.Therapist"
+            android:exported="false" />
+        <activity
+            android:name=".ChatBot.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".landing.activities.PopUpTd"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.PopUpSc"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.PopUpPmr"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.PopUpMw"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.PopUpGi"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.PopUpDb"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.PopUpBv"
+            android:exported="false"
+            android:theme="@style/Theme.popMe" />
+        <activity
+            android:name=".landing.activities.BeachVisualisation"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.SelfCompassion"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.ThoughtDefusion"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.MindfulWalking"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.PMR"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.GuidedImagery"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.DeepBreathing"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.books.Book3"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.books.Book2"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.books.Book1"
+            android:exported="false"
+            android:theme="@style/Splash" />
+
+        <receiver android:name=".tracker.notification.AlarmReceiver" />
+
+        <activity
+            android:name=".tracker.NotepadEntry"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".tracker.intro.IntroActivity"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".tracker.MainActivity"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".nav.Settings"
+            android:exported="false"
+            android:theme="@style/Splash"/>
+        <activity
+            android:name=".nav.TandP"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.books.Books"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.MoodliftArticle"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.MoodliftInspo"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.MoodliftTips"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.activities.Activities"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".landing.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".landing.HomeActivity"
+            android:exported="false"
+            android:theme="@style/Splash" />
+        <activity
+            android:name=".community.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community.PostDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community.PostLikedByActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community.EditProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".community.DashboardActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

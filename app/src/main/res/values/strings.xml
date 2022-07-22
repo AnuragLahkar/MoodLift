@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MoodLift</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- BottomNavigationView strings -->
+    <string name="menu_journal">Journal</string>
+    <string name="menu_resources">Resources</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <!-- Intro slides -->
+    <string name="intro_slide1_header">Welcome to MoodTracker</string>
+    <string name="intro_slide1_body">MoodTracker is a personal tool that helps you keep track of your mental health</string>
+    <string name="intro_slide2_header">Journal</string>
+    <string name="intro_slide2_body">Use the journal to write more detailed information about how you\'re feeling</string>
+    <string name="intro_slide3_header">Mood Graph</string>
+    <string name="intro_slide3_body">Use the graph to view your mood history</string>
+    <string name="intro_slide4_header">Resources</string>
+    <string name="intro_slide4_body">Get suggested articles and videos that can help you improve your mood</string>
+    <string name="intro_slide5_header">Location and Apps</string>
+    <string name="intro_slide5_body">Track your movement and app usage to better understand your moods</string>
+    <string name="intro_slide6_header">Terms and Conditions</string>
+    <string name="intro_slide6_body">Please read the terms and conditions before you use the Tracker</string>
+
+
+    <string name="zero">0:00</string>
+
+    <string name="db">Deep Breathing can immediately help you to relax and reduce the stress hormones. In the long run, it can improve focus, brain functioning, and benefit the body\'s digestion and immune system.</string>
+    <string name="bv">This exercise will guide you to visualise a beautiful, quiet beach so that you can experience a deep sense of calm and peace. Take your mental vacation now.</string>
+    <string name="gi">Guided Imagery is a relaxation technique that helps you visualise a calm and serene setting. It can help you let go of negative thoughts and can even reduce stress. Give it a go now.</string>
+    <string name="mw">Walking meditation gives us an opportunity to gather our awareness which so often becomes distracted or even stuck when the mind is left to its own devices. Whether moving between floors of a building, on a city street, or in the woods, it is an opportunity to guide ourselves out of the distracted autopilot we live in throughout so much of our day.</string>
+    <string name="pmr">PMR is a guided relaxation technique that gives you a sense of control over your body. It reduces muscle tension and fatigue, and can make you feel calmer and happier. Try it now.</string>
+    <string name="sc">You might find it more difficult to be kind to others around you.Through self compassion, you can feel more positive and even cope better in difficult situations.</string>
+    <string name="td">Defusion is a skill or technique that is primarily used to detach, separate, or get some distance from our thoughts and emotions.</string>
+
+</resources>

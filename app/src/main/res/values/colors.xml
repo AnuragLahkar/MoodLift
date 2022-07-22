@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CC2E76BE</color>
+    <color name="colorPrimaryDark">#CC073D74</color>
+    <color name="colorAccent">#0A527E</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGray">#F5F1F1</color>
+    <color name="colorgray01">#959595</color>
+    <color name="colorGray02">#f5f0f0</color>
+    <color name="colorGreen">#17581A</color>
+    <color name="colorRed">#F4511E</color>
+    <color name="btnRed">#E61313</color>
+    <color name="btnedit">#2CA7E0</color>
+    <color name="neutral">#0a1b97</color>
+    <color name="colordrawer">#2B2C2E</color>
+
+    <!-- BottomNavigationView colors -->
+    <color name="colorBottomNavActive">#20A0EE</color>
+    <color name="colorBottomNavInactive">#45535D</color>
+    <color name="colorBottomNavBackground">#16202A</color>
+    <color name="colorBottomNavSeparator">#45535D</color>
+
+    <!-- Alert dialog colors -->
+    <color name="colorAlertDialogBackground">#16202A</color>
+    <color name="colorAlertDialogButton">#20A0EE</color>
+    <color name="colorAlertDialogText">#EFEFEF</color>
+
+    <!-- Intro slides colors -->
+    <color name="colorIntroSlideHeader">#FFFFFF</color>
+    <color name="colorIntroSlideBody">#FFFFFF</color>
+    <color name="colorIntroSlide1Background">#343434</color>
+    <color name="colorIntroSlide2Background">#3B6DB2</color>
+    <color name="colorIntroSlide3Background">#CC8A2D</color>
+    <color name="colorIntroSlide4Background">#1C4E3B</color>
+    <color name="colorIntroSlide5Background">#A82222</color>
+    <color name="colorIntroSlide6Background">#318D9A</color>
+
+</resources>
